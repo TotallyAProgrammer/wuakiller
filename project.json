@@ -1,0 +1,8 @@
+{
+    "author": "Zane Reick",
+    "company": "UTS",
+    "title": "WUA-Killer",
+    "description": "This is a app to kill the windows update assistant.\r\nAnd it's really great!",
+    "version": "1.1-alpha.*",
+    "name": "wua-killer"
+}
