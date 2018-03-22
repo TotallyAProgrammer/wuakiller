@@ -1,13 +1,15 @@
 using System;
+using System.Windows.Forms;
+using System.Diagnostics;
 
 
 class kill
 {
      static void Main()
     {
-        int pname = 1;
-//        Process[] pname = Process.GetProcessesByName("notepad");
-        if(pname.Length == 1){
+//        int a = 1;
+        Process[] a = Process.GetProcessesByName("notepad");
+        if(a.Length == 1){
             MessageBox.Show("Dot Net Perls");
         }
 /*        if(pname == 1){
