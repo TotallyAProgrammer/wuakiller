@@ -2,20 +2,16 @@ using System;
 
 namespace wuakiller{
     public class wuakiller{
-        bool pname;
+        int pname = 0;
         Process[] pname = Process.GetProcessesByName("notepad");
-        if (pname.Length == 0){
+        if(pname.Length = 1){
             MessageBox(
-                 NULL,
-                 (LPCWSTR)L"nothing"
-    //             MB_CANCELTRYCONTINUE
+                 (LPCTSTR)L"nothing"
                 );
         }
         else{
             MessageBox(
-                 NULL,
-                 (LPCWSTR)L"run"
-    //             MB_CANCELTRYCONTINUE
+                 (LPCTSTR)L"running"
                 );
         }
 }
