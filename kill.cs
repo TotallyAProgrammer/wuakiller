@@ -1,11 +1,11 @@
 using System;
-using System.Windows.Forms;
 using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace wuakiller{
     public class wuakiller{
         Process[] pname = Process.GetProcessesByName("notepad");
-        if(pname.Length = 1){
+        if(pname.Length == 1){
         }
         else{
         }
