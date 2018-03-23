@@ -7,9 +7,12 @@ class kill
 {
      static void Main()
     {
-        Process[] a = Process.GetProcessesByName("notepad");
-        if(a.Length == 1){
-            MessageBox.Show("Dot Net Perls");
+        Process[] procnm = Process.GetProcessesByName("notepad");
+        if(procnm.Length == 1){
+            MessageBox.Show("Live");
+        }
+        else{
+            MessageBox.Show("Dead");
         }
     }
 }
