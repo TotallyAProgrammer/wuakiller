@@ -30,7 +30,7 @@ class kill
             MessageBox.Show("Still Live, Not Dead");
         }
         else{
-            MessageBox.Show("Dead, Killed.");
+            MessageBox.Show("Dead, Killed. Dead, never on.");
         }
     }
 }
