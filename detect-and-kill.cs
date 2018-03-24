@@ -1,14 +1,14 @@
 using System;
 using System.Windows.Forms;
 using System.Diagnostics;
-
-
+//Modify anywhere it says Windows10UpgraderApp
+//To the process you want to kill
 class kill
 {
      static void Main()
     {
         String procmain = "Windows10UpgraderApp";
-        DialogResult result1 = MessageBox.Show("Kill Process?", procmain /*procmain*/, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+        DialogResult result1 = MessageBox.Show("Kill Process?", procmain, MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
         if(result1 == DialogResult.No){
             return;
         }
